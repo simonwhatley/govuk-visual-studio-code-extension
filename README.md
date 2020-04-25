@@ -1,4 +1,4 @@
-# About the GOV.UK Visual Studio code extension
+# About the GOV.UK Visual Studio Code extension
 This is an extension for [Visual Studio Code](https://code.visualstudio.com/) to help in the building of UK Government digital services.
 
 ## Requirements
