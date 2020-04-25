@@ -1,0 +1,46 @@
+{
+  "name": "govuk-design-system-snippets",
+  "publisher": "simonwhatley",
+  "displayName": "GOV.UK Design System snippets for Nunjucks",
+  "description": "GOV.UK Design System snippets for Nunjucks by Simon Whatley",
+  "keywords": [
+    "government",
+    "govuk",
+    "gov.uk",
+    "nunjucks",
+    "prototyping",
+    "snippet",
+    "snippets",
+    "vscode"
+  ],
+  "icon": "images/icon.png",
+  "version": "1.0.0",
+  "author": "Simon Whatley",
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whatterz/govuk-visual-studio-code-extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whatterz/govuk-visual-studio-code-extension/issues"
+  },
+  "homepage": "https://github.com/whatterz/govuk-visual-studio-code-extension#readme",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
