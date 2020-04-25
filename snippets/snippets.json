@@ -1,0 +1,723 @@
+{
+	"Grid row": {
+		"prefix": "gov-grid-row",
+		"body": [
+			"<div class=\"govuk-grid-row\">",
+			"\t$1",
+			"</div>$2",
+			"$0"
+		],
+		"description": "Grid row – GOV.UK Design System"
+	},
+	"Grid column": {
+		"prefix": "gov-grid-column",
+		"body": [
+			"{# Column size class suffixes: full, one-half, one-third, two-thirds, one-quarter #}",
+			"<div class=\"govuk-grid-column-${1:size}\">",
+			"\t$2",
+			"</div>$3",
+			"$0"
+		],
+		"description": "Grid column – GOV.UK Design System"
+	},
+	"Grid column full": {
+		"prefix": "gov-grid-column-full",
+		"body": [
+			"<div class=\"govuk-grid-column-full\">",
+			"\t$1",
+			"</div>$2",
+			"$0"
+		],
+		"description": "Grid column full width – GOV.UK Design System"
+	},
+	"Grid column one-half": {
+		"prefix": "gov-grid-column-one-half",
+		"body": [
+			"<div class=\"govuk-grid-column-one-half\">",
+			"\t$1",
+			"</div>$2",
+			"$0"
+		],
+		"description": "Grid column one-half width – GOV.UK Design System"
+	},
+	"Grid column one-quarter": {
+		"prefix": "gov-grid-column-one-quarter",
+		"body": [
+			"<div class=\"govuk-grid-column-one-quarter\">",
+			"\t$1",
+			"</div>$2",
+			"$0"
+		],
+		"description": "Grid column one-quarter width – GOV.UK Design System"
+	},
+	"Grid column two-thirds": {
+		"prefix": "gov-grid-column-two-thirds",
+		"body": [
+			"<div class=\"govuk-grid-column-two-thirds\">",
+			"\t$1",
+			"</div>$2",
+			"$0"
+		],
+		"description": "Grid column two-thirds width – GOV.UK Design System"
+	},
+	"Grid column one-third": {
+		"prefix": "gov-grid-column-one-third",
+		"body": [
+			"<div class=\"govuk-grid-column-one-third\">",
+			"\t$1",
+			"</div>$2",
+			"$0"
+		],
+		"description": "Grid column one-third width – GOV.UK Design System"
+	},
+	"Layout two-thirds / one-third": {
+		"prefix": "gov-layout-two-thirds-one-third",
+		"body": [
+			"<div class=\"govuk-grid-row\">",
+			"\t<div class=\"govuk-grid-column-two-thirds\">",
+			"\t\t$1",
+			"\t</div>",
+			"\t<div class=\"govuk-grid-column-one-third\">",
+			"\t\t$2",
+			"\t</div>",
+			"</div>$3",
+			"$0"
+		],
+		"description": "Layout two-thirds / one-third columns – GOV.UK Design System"
+	},
+	"Layout one-third / two-thirds": {
+		"prefix": "gov-layout-one-third-two-thirds",
+		"body": [
+		"<div class=\"govuk-grid-row\">",
+		"\t<div class=\"govuk-grid-column-one-third\">",
+		"\t\t$1",
+		"\t</div>",
+		"\t<div class=\"govuk-grid-column-two-thirds\">",
+		"\t\t$2",
+		"\t</div>",
+		"</div>$3",
+		"$0"
+		],
+		"description": "Layout one-third / two-thirds columns – GOV.UK Design System"
+	},
+	"Form section": {
+		"prefix": "gov-form-section",
+		"body": [
+		  "<div class=\"govuk-form-section\">",
+		  "\t$1",
+		  "</div>$2",
+		  "$0"
+		],
+		"description": "Form section – GOV.UK Design System"
+	  },
+	"Form group": {
+		"prefix": "gov-form-group",
+		"body": [
+		  "<div class=\"govuk-form-group\">",
+		  "\t$1",
+		  "</div>$2",
+		  "$0"
+		],
+		"description": "Form group – GOV.UK Design System"
+	},
+	"Form fieldset": {
+		"prefix": "gov-form-fieldset",
+		"body": [
+		"{{ govukFieldset({",
+		"\tlegend: {",
+		"\t\ttext: \"${1:Legend text}\",",
+		"\t\tclasses: \"govuk-fieldset__legend--${2:xl|l|m}\",",
+		"\t\tisPageHeading: ${3:true|false}",
+		"\t}",
+		"}) }}$4",
+		"$0"
+		],
+		"description": "Form fieldset – GOV.UK Design System"
+	},
+	"Section break": {
+		"prefix": "gov-section-break",
+		"body": [
+		  "{# Size modifiers: xl, l, m #}",
+		  "<hr class=\"govuk-section-break govuk-section-break--${1:size} govuk-section-break--visible\">",
+		  "$0"
+		],
+		"description": "Section break – GOV.UK Design System"
+	},
+	"Headings": {
+		"prefix": "gov-heading",
+		"body": [
+			"<h${1:1} class=\"govuk-heading-${2:xl|l|m}\">",
+			"\t$3",
+			"</h${1:1}>$4",
+			"$0"
+		],
+		"description": "Headings – GOV.UK Design System"
+	},
+	"Captions": {
+		"prefix": "gov-caption",
+		"body": [
+			"<span class=\"govuk-caption-${1:xl|l|m}\">",
+			"\t$2",
+			"</span>$3",
+			"$0"
+		],
+		"description": "Captions – GOV.UK Design System"
+	},
+	"Paragraph body": {
+		"prefix": "gov-paragraph-body",
+		"body": [
+			"<p class=\"govuk-body\">",
+			"\t$1",
+			"<p>$2",
+			"$0"
+		],
+		"description": "Paragraph body – GOV.UK Design System"
+	  },
+	"Paragraph body small": {
+		"prefix": "gov-paragraph-body-small",
+		"body": [
+			"<p class=\"govuk-body-s\">",
+			"\t$1",
+			"<p>$2",
+			"$0"
+		],
+		"description": "Paragraph body small – GOV.UK Design System"
+	},
+	"Lead paragraph": {
+		"prefix": "gov-paragraph-lead",
+		"body": [
+			"<p class=\"govuk-body-l\">",
+			"\t$1",
+			"<p>$2",
+			"$0"
+		],
+		"description": "Lead paragraph – GOV.UK Design System"
+	},
+	"Font size override": {
+		"prefix": "gov-font-size",
+		"body": [
+			"{# Font sizes: 80, 48, 36, 27, 24, 19, 16, 14 #}",
+			"<p class=\"govuk-body govuk-!-font-size-${1:size}\">",
+			"\t$2",
+			"<p>$3",
+			"$0"
+		],
+		"description": "Font size override – GOV.UK Design System"
+	},
+	"Font weight override": {
+		"prefix": "gov-font-weight",
+		"body": [
+			"{# Font weights: regular, bold #}",
+			"<p class=\"govuk-body govuk-!-font-weight-${1:bold}\">",
+			"\t$2",
+			"<p>$3",
+			"$0"
+		],
+		"description": "Font weight override – GOV.UK Design System"
+	},
+	"Links": {
+		"prefix": "gov-link",
+		"body": [
+			"<a href=\"${1:#}\" class=\"govuk-link\">",
+			"\t$2",
+			"</a>$3",
+			"$0"
+		],
+		"description": "Links – GOV.UK Design System"
+	},
+	"Lists": {
+		"prefix": "gov-list",
+		"body": [
+			"<ul class=\"govuk-list\">",
+			"\t<li>",
+			"\t\t${1:List item}",
+			"\t</li>",
+			"\t<li>",
+			"\t\t${2:List item}",
+			"\t</li>",
+			"\t<li>",
+			"\t\t${3:List item}",
+			"\t</li>",
+			"</ul>$4",
+			"$0"
+		],
+		"description": "Lists – GOV.UK Design System"
+	},
+	"Bulleted lists": {
+		"prefix": "gov-list-bulleted",
+		"body": [
+			"<ul class=\"govuk-list govuk-list--bullet\">",
+			"\t<li>",
+			"\t\t${1:List item}",
+			"\t</li>",
+			"\t<li>",
+			"\t\t${2:List item}",
+			"\t</li>",
+			"\t<li>",
+			"\t\t${3:List item}",
+			"\t</li>",
+			"</ul>$4",
+			"$0"
+		],
+		"description": "Bulleted lists – GOV.UK Design System"
+	},
+	"Numbered lists": {
+		"prefix": "gov-list-numbered",
+		"body": [
+			"<ul class=\"govuk-list govuk-list--number\">",
+			"\t<li>",
+			"\t\t${1:List item}",
+			"\t</li>",
+			"\t<li>",
+			"\t\t${2:List item}",
+			"\t</li>",
+			"\t<li>",
+			"\t\t${3:List item}",
+			"\t</li>",
+			"</ul>$4",
+			"$0"
+		],
+		"description": "Numbered lists – GOV.UK Design System"
+	},
+	"Button": {
+		"prefix": "gov-form-button",
+		"body": [
+			"{{ govukButton({",
+			"\ttext: \"${1:Button text}\"",
+			"}) }}$2",
+			"$0"
+		],
+		"description": "Button – GOV.UK Design System"
+	  },
+	"Checkboxes": {
+		"prefix": "gov-form-checkboxes",
+		"body": [
+			"{{ govukCheckboxes({",
+			"\tidPrefix: \"$1\",",
+			"\tname: \"$1\",",
+			"\tfieldset: {",
+			"\t\tlegend: {",
+			"\t\t\ttext: \"${2:Legend text}\",",
+			"\t\t\tisPageHeading: ${3:true},",
+			"\t\t\tclasses: \"govuk-fieldset__legend--${4:xl}\"",
+			"\t\t}",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"$5\"",
+			"\t},",
+			"\titems: [",
+			"\t\t${6:Use gov-form-option snippet}",
+			"\t]",
+			"}) }}$7",
+			"$0"
+		],
+		"description": "Checkboxes – GOV.UK Design System"
+	},
+	"Radios": {
+		"prefix": "gov-form-radios",
+		"body": [
+			"{{ govukRadios({",
+			"\tidPrefix: \"$1\",",
+			"\tname: \"$1\",",
+			"\tfieldset: {",
+			"\t\tlegend: {",
+			"\t\t\ttext: \"${2:Legend text}\",",
+			"\t\t\tisPageHeading: ${3:true},",
+			"\t\t\tclasses: \"govuk-fieldset__legend--${4:xl}\"",
+			"\t\t}",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"$5\"",
+			"\t},",
+			"\titems: [",
+			"\t\t${6:Use gov-form-option snippet}",
+			"\t]",
+			"}) }}$7",
+			"$0"
+		],
+		"description": "Radios – GOV.UK Design System"
+	},
+	"Select": {
+		"prefix": "gov-form-select",
+		"body": [
+			"{{ govukSelect({",
+			"\tid: \"$1\",",
+			"\tname: \"$1\",",
+			"\tlabel: {",
+			"\t\ttext: \"${2:Label text}\"",
+			"\t},",
+			"\titems: [",
+			"\t\t${3:Use gov-form-option snippet}",
+			"\t]",
+			"}) }}$4,",
+			"$0"
+		],
+		"description": "Select – GOV.UK Design System"
+	},
+	"Radio, checkbox or select option": {
+		"prefix": "gov-form-option",
+		"body": [
+			"{",
+				"value: \"$1\",",
+				"text: \"$2\"",
+			"}$3,",
+			"$0"
+		],
+		"description": "Radio, checkbox or select option – GOV.UK Design System"
+	},
+	"Text input": {
+		"prefix": "gov-form-input",
+		"body": [
+			"{{ govukInput({",
+			"\tid: \"$1\",",
+			"\tname: \"$1\",",
+			"\tlabel: {",
+			"\t\ttext: \"${2:Label text}\"",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"${3:Hint text}\"",
+			"\t}",
+			"}) }}$4,",
+			"$0"
+		],
+		"description": "Text input – GOV.UK Design System"
+	},
+	"Textarea": {
+		"prefix": "gov-form-textarea",
+		"body": [
+			"{{ govukTextarea({",
+			"\tid: \"$1\",",
+			"\tname: \"$1\",",
+			"\tlabel: {",
+			"\t\ttext: \"${2:Label text}\"",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"${3:Hint text}\"",
+			"\t}",
+			"}) }}$4,",
+			"$0"
+		],
+		"description": "Textarea – GOV.UK Design System"
+	},
+	"Address": {
+		"prefix": "gov-form-address",
+		"body": [
+			"{% call govukFieldset({",
+			"\tlegend: {",
+			"\t\ttext: \"${1:What is your address?}\",",
+			"\t\tclasses: \"govuk-fieldset__legend--${2:xl}\",",
+			"\t\tisPageHeading: ${3:true}",
+			"\t}",
+			"}) %}",
+			"",
+			"\t{{ govukInput({",
+			"\t\tid: \"address-line-1\",",
+			"\t\tname: \"address-line-1\",",
+			"\t\tlabel: {",
+			"\t\t\thtml: 'Building and street <span class=\"govuk-visually-hidden\">line 1 of 2</span>'",
+			"\t\t}",
+			"\t}) }}",
+			"",
+			"\t{{ govukInput({",
+			"\t\tid: \"address-line-2\",",
+			"\t\tname: \"address-line-2\",",
+			"\t\tlabel: {",
+			"\t\t\thtml: '<span class=\"govuk-visually-hidden\">Building and street line 2 of 2</span>'",
+			"\t\t}",
+			"\t}) }}",
+			"",
+			"\t{{ govukInput({",
+			"\t\tid: \"address-town\",",
+			"\t\tname: \"address-town\",",
+			"\t\tlabel: {",
+			"\t\t\ttext: \"Town or city\"",
+			"\t\t},",
+			"\t\tclasses: \"govuk-!-width-two-thirds\"",
+			"\t}) }}",
+			"",
+			"\t{{ govukInput({",
+			"\t\tid: \"address-county\",",
+			"\t\tname: \"address-county\",",
+			"\t\tlabel: {",
+			"\t\t\ttext: \"County\"",
+			"\t\t},",
+			"\t\tclasses: \"govuk-!-width-two-thirds\"",
+			"\t}) }}",
+			"",
+			"\t{{ govukInput({",
+			"\t\tid: \"address-postcode\",",
+			"\t\tname: \"address-postcode\",",
+			"\t\tlabel: {",
+			"\t\t\ttext: \"Postcode\"",
+			"\t\t},",
+			"\t\tclasses: \"govuk-input--width-10\"",
+			"\t}) }}",
+			"",
+			"{% endcall %}$4",
+			"$0"
+		],
+		"description": "Addresses – GOV.UK Design System"
+	},
+	"Date input": {
+		"prefix": "gov-form-date",
+		"body": [
+			"{{ govukDateInput({",
+			"\tid: \"${1:date}\",",
+			"\tname: \"${1:date}\",",
+			"\tfieldset: {",
+			"\t\tlegend: {",
+			"\t\t\ttext: \"${2:Legend text}\",",
+			"\t\t\tisPageHeading: ${3:true},",
+			"\t\t\tclasses: \"govuk-fieldset__legend--${4:xl}\"",
+			"\t\t}",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"${5:For example, 31 3 1980}\"",
+			"\t},",
+			"\titems: [",
+			"\t\t{",
+			"\t\t\tname: \"day\"",
+			"\t\t},",
+			"\t\t{",
+			"\t\t\tname: \"month\"",
+			"\t\t},",
+			"\t\t{",
+			"\t\t\tname: \"year\"",
+			"\t\t}",
+			"\t]",
+			"}) }}$6",
+			"$0"
+		],
+		"description": "Date input – GOV.UK Design System"
+	},
+	"File upload": {
+		"prefix": "gov-form-file",
+		"body": [
+			"{{ govukFileUpload({",
+			"\tid: \"${1:file-upload-1}\",",
+			"\tname: \"${1:file-upload-1}\",",
+			"\tlabel: {",
+			"\t\ttext: \"${2:Upload a file}\"",
+			"\t}",
+			"}) }}$3",
+			"$0"
+		],
+		"description": "File upload – GOV.UK Design System"
+	},
+	"National Insurance number (NINO)": {
+		"prefix": "gov-form-nino",
+		"body": [
+			"{{ govukInput({",
+			"\tid: \"national-insurance-number\",",
+			"\tname: \"national-insurance-number\",",
+			"\tlabel: {",
+			"\t\ttext: \"National insurance number\"",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.\"",
+			"\t},",
+			"\tclasses: \"govuk-input--width-10\"",
+			"}) }}$1",
+			"$0"
+		],
+		"description": "National Insurance number (NINO) – GOV.UK Design System"
+	},
+	"Back link": {
+		"prefix": "gov-back-link",
+		"body": [
+			"{{ govukBackLink({",
+			"\ttext: \"${1:Back}\",",
+			"\thref: \"${2:#}\"",
+			"}) }}$3",
+			"$0"
+		],
+		"description": "Back link – GOV.UK Design System"
+	},
+	"Breadcrumbs": {
+		"prefix": "gov-breadcrumbs",
+		"body": [
+			"{{ govukBreadcrumbs({",
+			"\titems: [",
+			"\t\t${1:Use gov-link-item snippet}",
+			"\t]",
+			"}) }}$3",
+			"$0"
+		],
+		"description": "Breadcrumbs – GOV.UK Design System"
+	},
+	"Details": {
+		"prefix": "gov-details",
+		"body": [
+			"{{ govukDetails({",
+			"\tsummaryText: \"${1:Summary text}\",",
+			"\ttext: \"${2:Text}\"",
+			"}) }}$3",
+			"$0"
+		],
+		"description": "Details – GOV.UK Design System"
+	},
+	"Error summary": {
+		"prefix": "gov-error-summary",
+		"body": [
+			"{{ govukErrorSummary({",
+			"\ttitleText: \"${1:There is a problem}\",",
+			"\terrorList: [",
+			"\t\t${2:Use gov-link-item snippet}",
+			"\t]",
+			"}) }}$3",
+			"$0"
+		],
+		"description": "Error summary – GOV.UK Design System"
+	},
+	"Footer": {
+		"prefix": "gov-footer",
+		"body": [
+			"{{ govukFooter({}) }}$1",
+			"$0"
+		],
+		"description": "Footer – GOV.UK Design System"
+	},
+	"Header": {
+		"prefix": "gov-header",
+		"body": [
+			"{{ govukHeader({",
+			"\thomepageUrl: \"${1:#}\"",
+			"}) }}$2",
+			"$0"
+		],
+		"description": "Header – GOV.UK Design System"
+	},
+	"Inset text": {
+		"prefix": "gov-inset-text",
+		"body": [
+			"{{ govukInsetText({",
+			"\ttext: \"${1:Text}\"",
+			"}) }}$2",
+			"$0"
+		],
+		"description": "Inset text – GOV.UK Design System"
+	},
+	"Link item": {
+		"prefix": "gov-link-item",
+		"body": [
+			"{",
+			"\ttext: \"$1\",",
+			"\thref: \"$2\"",
+			"}$3",
+			"$0"
+		],
+		"description": "Link item – GOV.UK Design System"
+	},
+	"Panel": {
+		"prefix": "gov-panel",
+		"body": [
+			"{{ govukPanel({",
+			"\ttitleText: \"${1:Title text}\",",
+			"\thtml: \"Your reference number is<br><strong>$2</strong>\"",
+			"}) }}$3",
+			"$0"
+		],
+		  "description": "Panel – GOV.UK Design System"
+	},
+	"Phase banner": {
+		"prefix": "gov-phase-banner",
+		"body": [
+			"{{ govukPhaseBanner({",
+			"\ttag: {",
+			"\t\ttext: \"${1:Alpha|Beta}\"",
+			"\t},",
+			"\thtml: '${2:This is a new service – your <a class=\"govuk-link\" href=\"#\">feedback</a> will help us to improve it.}'",
+			"}) }}$3",
+			"$0"
+		],
+		"description": "Phase banner – GOV.UK Design System"
+	},
+	"Skip link": {
+		"prefix": "gov-skip-link",
+		"body": [
+			"{{ govukSkipLink({",
+			"\ttext: \"Skip to main content\",",
+			"\thref: \"#content\"",
+			"}) }}$1",
+			"$0"
+		],
+		"description": "Skip link – GOV.UK Design System"
+	},
+	"Table": {
+		"prefix": "gov-table",
+		"body": [
+			"{{ govukTable({",
+			"\tcaption: \"${1:Caption text}\",",
+			"\tfirstCellIsHeader: ${2:false},",
+			"\thead: [",
+			"\t\t{",
+			"\t\t\ttext: \"Column 1 heading\"",
+			"\t\t},",
+			"\t\t{",
+			"\t\t\ttext: \"Column 2 heading\"",
+			"\t\t}",
+			"\t],",
+			"\trows: [",
+			"\t\t[",
+			"\t\t\t{",
+			"\t\t\t\ttext: \"Row 1, column 1\"",
+			"\t\t\t},",
+			"\t\t\t{",
+			"\t\t\t\ttext: \"Row 1, column 2\"",
+			"\t\t\t}",
+			"\t\t],",
+			"\t\t[",
+			"\t\t\t{",
+			"\t\t\t\ttext: \"Row 2, column 1\"",
+			"\t\t\t},",
+			"\t\t\t{",
+			"\t\t\t\ttext: \"Row 2, column 2\"",
+			"\t\t\t}",
+			"\t\t],",
+			"\t\t[",
+			"\t\t\t{",
+			"\t\t\t\ttext: \"Row 3, column 1\"",
+			"\t\t\t},",
+			"\t\t\t{",
+			"\t\t\t\ttext: \"Row 3, column 2\"",
+			"\t\t\t}",
+			"\t\t]",
+			"\t]",
+			"}) }}$3",
+			"$0"
+		],
+		"description": "Table – GOV.UK Design System"
+	},
+	"Tabs": {
+		"prefix": "gov-tabs",
+		"body": [
+			"{% set ${1:Tab name} %}",
+			"<h2 class=\"govuk-heading-l\">${2:Tab heading}</h2>",
+			"\t$3",
+			"{% endset %}$4",
+			"$0"
+		],
+		"description": "Tabs – GOV.UK Design System"
+	  },
+	"Tag": {
+		"prefix": "gov-tag",
+		"body": [
+			"{{ govukTag({",
+			"\ttext: \"${1:Label text}\"",
+			"}) }}$2",
+			"$0"
+		],
+		"description": "Tags – GOV.UK Design System"
+	},
+	"Warning text": {
+		"prefix": "gov-warning-text",
+		"body": [
+			"{{ govukWarningText({",
+			"\ttext: \"${1:Warning text}\",",
+			"\ticonFallbackText: \"${2:Fallback text}\"",
+			"}) }}$3",
+			"$0"
+		],
+		"description": "Warning text – GOV.UK Design System"
+	}
+}
