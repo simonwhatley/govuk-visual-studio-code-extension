@@ -13,8 +13,8 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |[Button](https://design-system.service.gov.uk/components/button/)|`govuk-form-button`||
 |[Caption](https://design-system.service.gov.uk/styles/typography/#headings-with-captions)|`govuk-caption`||
 |[Checkboxes](https://design-system.service.gov.uk/components/checkboxes/)|`govuk-form-checkboxes`||
-|Checkbox option|`govuk-form-checkbox-option`|HTML|Use in conjunction with the `govuk-form-checkboxes` HTML snippet.|
-|Checkbox, radio and selection option|`govuk-form-option`|Nunjucks|Use in conjunction with the `govuk-form-checkboxes`, `govuk-form-radios` and `govuk-form-select` Nunjucks snippets.|
+|Checkbox option|`govuk-form-checkbox-option`|Use in conjunction with the `govuk-form-checkboxes` HTML snippet.|
+|Checkbox, radio and selection option|`govuk-form-option`|Use in conjunction with the `govuk-form-checkboxes`, `govuk-form-radios` and `govuk-form-select` Nunjucks snippets.|
 |[Dates](https://design-system.service.gov.uk/components/date-input/)|`govuk-form-date`||
 |[Details](https://design-system.service.gov.uk/components/details/)|`govuk-details`||
 |[Error summary](https://design-system.service.gov.uk/components/error-summary/)|`govuk-error-summary`||
@@ -25,19 +25,19 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |[Footer](https://design-system.service.gov.uk/components/footer/)|`govuk-footer`||
 |[Form group](https://design-system.service.gov.uk/)|`govuk-form-group`||
 |[Form section](https://design-system.service.gov.uk/)|`govuk-form-section`||
-|[Grid column full](https://design-system.service.gov.uk/styles/layout/#full-width)|`govuk-grid-column-full`|HTML||
-|[Grid column one-half](https://design-system.service.gov.uk/styles/layout/#one-half)|`govuk-grid-column-one-half`|HTML||
-|[Grid column one-quarter](https://design-system.service.gov.uk/styles/layout/#one-quarter)|`govuk-grid-column-one-quarter`|HTML||
-|[Grid column one-third](https://design-system.service.gov.uk/styles/layout/#one-third)|`govuk-grid-column-one-third`|HTML||
-|[Grid column two-thirds](https://design-system.service.gov.uk/styles/layout/#two-thirds)|`govuk-grid-column-two-thirds`|HTML||
-|[Grid column](https://design-system.service.gov.uk/styles/layout/)|`govuk-grid-column`|HTML||
-|[Grid row](https://design-system.service.gov.uk/styles/layout/)|`govuk-grid-row`|HTML||
+|[Grid column full](https://design-system.service.gov.uk/styles/layout/#full-width)|`govuk-grid-column-full`||
+|[Grid column one-half](https://design-system.service.gov.uk/styles/layout/#one-half)|`govuk-grid-column-one-half`||
+|[Grid column one-quarter](https://design-system.service.gov.uk/styles/layout/#one-quarter)|`govuk-grid-column-one-quarter`||
+|[Grid column one-third](https://design-system.service.gov.uk/styles/layout/#one-third)|`govuk-grid-column-one-third`||
+|[Grid column two-thirds](https://design-system.service.gov.uk/styles/layout/#two-thirds)|`govuk-grid-column-two-thirds`||
+|[Grid column](https://design-system.service.gov.uk/styles/layout/)|`govuk-grid-column`||
+|[Grid row](https://design-system.service.gov.uk/styles/layout/)|`govuk-grid-row`||
 |[Header](https://design-system.service.gov.uk/components/header/)|`govuk-header`||
 |[Heading](https://design-system.service.gov.uk/styles/typography/#headings)|`govuk-heading`||
 |[Inset text](https://design-system.service.gov.uk/components/inset-text/)|`govuk-inset-text`||
-|[Layout one-third / two-thirds](https://design-system.service.gov.uk/styles/layout/#two-thirds-one-third)|`govuk-layout-one-third-two-thirds`|HTML||
-|[Layout two-thirds / one-third](https://design-system.service.gov.uk/styles/layout/#two-thirds-one-third)|`govuk-layout-two-thirds-one-third`|HTML||
-|Link item|`govuk-link-item`|Nunjucks||
+|[Layout one-third / two-thirds](https://design-system.service.gov.uk/styles/layout/#two-thirds-one-third)|`govuk-layout-one-third-two-thirds`||
+|[Layout two-thirds / one-third](https://design-system.service.gov.uk/styles/layout/#two-thirds-one-third)|`govuk-layout-two-thirds-one-third`||
+|Link item|`govuk-link-item`||
 |[Links](https://design-system.service.gov.uk/styles/typography/#links)|`govuk-link`||
 |[Lists](https://design-system.service.gov.uk/styles/typography/#lists)|`govuk-list`||
 |[National Insurance Number (NINO)](https://design-system.service.gov.uk/patterns/national-insurance-numbers/)|`govuk-form-nino`||
@@ -48,15 +48,15 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |[Paragraph body text](https://design-system.service.gov.uk/styles/typography/#body)|`govuk-paragraph-body`||
 |[Phase banner](https://design-system.service.gov.uk/components/phase-banner/)|`govuk-phase-banner`||
 |[Radios](https://design-system.service.gov.uk/components/radios/)|`govuk-form-radios`||
-|Radio option|`govuk-form-radio-option`|HTML|Use in conjunction with the `govuk-form-radios` HTML snippet.|
+|Radio option|`govuk-form-radio-option`|Use in conjunction with the `govuk-form-radios` HTML snippet.|
 |[Section break](https://design-system.service.gov.uk/styles/typography/#section-break)|`govuk-section-break`||
 |[Select](https://design-system.service.gov.uk/components/select/)|`govuk-form-select`||
-|Select option|`govuk-form-select-option`|HTML|Use in conjunction with the `govuk-form-select` HTML snippet.|
+|Select option|`govuk-form-select-option`|Use in conjunction with the `govuk-form-select` HTML snippet.|
 |[Skip link](https://design-system.service.gov.uk/components/skip-link/)|`govuk-skip-link`||
 |[Tables](https://design-system.service.gov.uk/components/table/)|`govuk-table`||
 |[Tabs](https://design-system.service.gov.uk/components/tabs/)|`govuk-tabs`||
-|Tab item|`govuk-tab-item`|HTML|Use in conjunction with the `govuk-tabs` HTML snippet. This snippet forms the tabs list.|
-|Tab section|`govuk-tab-section`|HTML|Use in conjunction with the `govuk-tabs` HTML snippet. This snippet forms the tab's content.|
+|Tab item|`govuk-tab-item`|Use in conjunction with the `govuk-tabs` HTML snippet. This snippet forms the tabs list.|
+|Tab section|`govuk-tab-section`|Use in conjunction with the `govuk-tabs` HTML snippet. This snippet forms the tab's content.|
 |[Tags](https://design-system.service.gov.uk/components/tag/)|`govuk-tag`||
 |[Text input](https://design-system.service.gov.uk/components/text-input/)|`govuk-form-input`||
 |[Textarea](https://design-system.service.gov.uk/components/textarea/)|`govuk-form-textarea`||
