@@ -349,7 +349,7 @@
 			"\titems: [",
 			"\t\t${3:Use govuk-form-option snippet}",
 			"\t]",
-			"}) }}$4,",
+			"}) }}$4",
 			"$0"
 		],
 		"description": "Select – GOV.UK Design System"
@@ -360,7 +360,7 @@
 			"{",
 				"value: \"$1\",",
 				"text: \"$2\"",
-			"}$3,",
+			"}$3",
 			"$0"
 		],
 		"description": "Radio, checkbox or select option – GOV.UK Design System"
@@ -377,7 +377,7 @@
 			"\thint: {",
 			"\t\ttext: \"${3:Hint text}\"",
 			"\t}",
-			"}) }}$4,",
+			"}) }}$4",
 			"$0"
 		],
 		"description": "Text input – GOV.UK Design System"
@@ -394,7 +394,7 @@
 			"\thint: {",
 			"\t\ttext: \"${3:Hint text}\"",
 			"\t}",
-			"}) }}$4,",
+			"}) }}$4",
 			"$0"
 		],
 		"description": "Textarea – GOV.UK Design System"
@@ -691,14 +691,46 @@
 	"Tabs": {
 		"prefix": "govuk-tabs",
 		"body": [
+			"{{ govukTabs({",
+			"\titems: [",
+			"\t\t{",
+			"\t\t\tlabel: \"$1\",",
+			"\t\t\tid: \"$2\",",
+			"\t\t\tpanel: {",
+			"\t\t\t\thtml: ${3:Tab html}",
+			"\t\t\t}",
+			"\t\t}",
+			"\t\t{",
+			"\t\t\tlabel: \"$4\",",
+			"\t\t\tid: \"$5\",",
+			"\t\t\tpanel: {",
+			"\t\t\t\thtml: ${6:Tab html}",
+			"\t\t\t}",
+			"\t\t}",
+			"\t\t{",
+			"\t\t\tlabel: \"$7\",",
+			"\t\t\tid: \"$8\",",
+			"\t\t\tpanel: {",
+			"\t\t\t\thtml: ${9:Tab html}",
+			"\t\t\t}",
+			"\t\t}",
+			"\t]",
+			"}) }}",
+			"$0"
+		],
+		"description": "Tabs – GOV.UK Design System"
+	},
+	"Tab item set": {
+		"prefix": "govuk-tab-item",
+		"body": [
 			"{% set ${1:Tab name} %}",
 			"<h2 class=\"govuk-heading-l\">${2:Tab heading}</h2>",
 			"\t$3",
 			"{% endset %}$4",
 			"$0"
 		],
-		"description": "Tabs – GOV.UK Design System"
-	  },
+		"description": "Tab item – GOV.UK Design System"
+	},
 	"Tag": {
 		"prefix": "govuk-tag",
 		"body": [
