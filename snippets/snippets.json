@@ -720,7 +720,7 @@
 		],
 		"description": "Tabs – GOV.UK Design System"
 	},
-	"Tab item HTML": {
+	"Tab item set": {
 		"prefix": "govuk-tab-item",
 		"body": [
 			"{% set ${1:Tab name} %}",
