@@ -1,6 +1,11 @@
+# 1.0.4
+
+- Fix snippets
+- Add tabs snippet
+
 # 1.0.3
 
-- Fix documentation
+- Improve documentation
 
 # 1.0.2
 
