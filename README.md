@@ -6,19 +6,19 @@ This extension for Visual Studio Code includes snippets to help in the building 
 
 |Name|Shortcut|Notes|
 |-------------------------|-------------------------|---|
-|[Addresses](https://design-system.service.gov.uk/patterns/addresses/)|`govuk-form-address`||
+|[Addresses](https://design-system.service.gov.uk/patterns/addresses/)|`govuk-address`||
 |[Back link](https://design-system.service.gov.uk/components/back-link/)|`govuk-back-link`||
 |[Breadcrumbs](https://design-system.service.gov.uk/components/breadcrumbs/)|`govuk-breadcrumbs`||
 |[Bulleted lists](https://design-system.service.gov.uk/styles/typography/#bulleted-lists)|`govuk-list-bulleted`||
-|[Button](https://design-system.service.gov.uk/components/button/)|`govuk-form-button`||
+|[Button](https://design-system.service.gov.uk/components/button/)|`govuk-button`||
 |[Caption](https://design-system.service.gov.uk/styles/typography/#headings-with-captions)|`govuk-caption`||
-|[Checkboxes](https://design-system.service.gov.uk/components/checkboxes/)|`govuk-form-checkboxes`||
-|Checkbox, radio and select option|`govuk-form-option`|Use in conjunction with the `govuk-form-checkboxes`, `govuk-form-radios` and `govuk-form-select` Nunjucks snippets.|
-|[Dates](https://design-system.service.gov.uk/components/date-input/)|`govuk-form-date`||
+|[Checkboxes](https://design-system.service.gov.uk/components/checkboxes/)|`govuk-checkboxes`||
+|Checkbox, radio and select option|`govuk-option`|Use in conjunction with the `govuk-checkboxes`, `govuk-radios` and `govuk-select` Nunjucks snippets.|
+|[Dates](https://design-system.service.gov.uk/components/date-input/)|`govuk-date`||
 |[Details](https://design-system.service.gov.uk/components/details/)|`govuk-details`||
 |[Error summary](https://design-system.service.gov.uk/components/error-summary/)|`govuk-error-summary`||
-|[Fieldset](https://design-system.service.gov.uk/components/fieldset/)|`govuk-form-fieldset`||
-|[File upload](https://design-system.service.gov.uk/components/file-upload/)|`govuk-form-file`||
+|[Fieldset](https://design-system.service.gov.uk/components/fieldset/)|`govuk-fieldset`||
+|[File upload](https://design-system.service.gov.uk/components/file-upload/)|`govuk-file`||
 |[Font size override](https://design-system.service.gov.uk/styles/typography/#font-size)|`govuk-font-size`||
 |[Font weight override](https://design-system.service.gov.uk/styles/typography/#font-weight)|`govuk-font-weight`||
 |[Footer](https://design-system.service.gov.uk/components/footer/)|`govuk-footer`||
@@ -39,23 +39,23 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |Link item|`govuk-link-item`||
 |[Links](https://design-system.service.gov.uk/styles/typography/#links)|`govuk-link`||
 |[Lists](https://design-system.service.gov.uk/styles/typography/#lists)|`govuk-list`||
-|[National Insurance Number (NINO)](https://design-system.service.gov.uk/patterns/national-insurance-numbers/)|`govuk-form-nino`||
+|[National Insurance Number (NINO)](https://design-system.service.gov.uk/patterns/national-insurance-numbers/)|`govuk-nino`||
 |[Numbered lists](https://design-system.service.gov.uk/styles/typography/#numbered-lists)|`govuk-list-numbered`||
 |[Panels](https://design-system.service.gov.uk/components/panel/)|`govuk-panel`||
 |[Paragraph body text large](https://design-system.service.gov.uk/styles/typography/#lead-paragraph)|`govuk-paragraph-body-lead`||
 |[Paragraph body text small](https://design-system.service.gov.uk/styles/typography/#body-small)|`govuk-paragraph-body-small`||
 |[Paragraph body text](https://design-system.service.gov.uk/styles/typography/#body)|`govuk-paragraph-body`||
 |[Phase banner](https://design-system.service.gov.uk/components/phase-banner/)|`govuk-phase-banner`||
-|[Radios](https://design-system.service.gov.uk/components/radios/)|`govuk-form-radios`||
+|[Radios](https://design-system.service.gov.uk/components/radios/)|`govuk-radios`||
 |[Section break](https://design-system.service.gov.uk/styles/typography/#section-break)|`govuk-section-break`||
-|[Select](https://design-system.service.gov.uk/components/select/)|`govuk-form-select`||
+|[Select](https://design-system.service.gov.uk/components/select/)|`govuk-select`||
 |[Skip link](https://design-system.service.gov.uk/components/skip-link/)|`govuk-skip-link`||
 |[Tables](https://design-system.service.gov.uk/components/table/)|`govuk-table`||
 |[Tabs](https://design-system.service.gov.uk/components/tabs/)|`govuk-tabs`||
 |Tab item HTML|`govuk-tab-item`|Use in conjunction with the `govuk-tabs` snippet. This snippet can be used to encapsulate a tab panel.|
 |[Tags](https://design-system.service.gov.uk/components/tag/)|`govuk-tag`||
-|[Text input](https://design-system.service.gov.uk/components/text-input/)|`govuk-form-input`||
-|[Textarea](https://design-system.service.gov.uk/components/textarea/)|`govuk-form-textarea`||
+|[Text input](https://design-system.service.gov.uk/components/text-input/)|`govuk-input`||
+|[Textarea](https://design-system.service.gov.uk/components/textarea/)|`govuk-textarea`||
 |[Warning text](https://design-system.service.gov.uk/components/warning-text/)|`govuk-warning-text`||
 
 ## Dependencies

@@ -121,7 +121,7 @@
 		"description": "Form group – GOV.UK Design System"
 	},
 	"Form fieldset": {
-		"prefix": "govuk-form-fieldset",
+		"prefix": "govuk-fieldset",
 		"body": [
 		"{{ govukFieldset({",
 		"\tlegend: {",
@@ -280,7 +280,7 @@
 		"description": "Numbered lists – GOV.UK Design System"
 	},
 	"Button": {
-		"prefix": "govuk-form-button",
+		"prefix": "govuk-button",
 		"body": [
 			"{{ govukButton({",
 			"\ttext: \"${1:Button text}\"",
@@ -290,7 +290,7 @@
 		"description": "Button – GOV.UK Design System"
 	  },
 	"Checkboxes": {
-		"prefix": "govuk-form-checkboxes",
+		"prefix": "govuk-checkboxes",
 		"body": [
 			"{{ govukCheckboxes({",
 			"\tidPrefix: \"$1\",",
@@ -306,7 +306,7 @@
 			"\t\ttext: \"$5\"",
 			"\t},",
 			"\titems: [",
-			"\t\t${6:Use govuk-form-option snippet}",
+			"\t\t${6:Use govuk-option snippet}",
 			"\t]",
 			"}) }}$7",
 			"$0"
@@ -314,7 +314,7 @@
 		"description": "Checkboxes – GOV.UK Design System"
 	},
 	"Radios": {
-		"prefix": "govuk-form-radios",
+		"prefix": "govuk-radios",
 		"body": [
 			"{{ govukRadios({",
 			"\tidPrefix: \"$1\",",
@@ -330,7 +330,7 @@
 			"\t\ttext: \"$5\"",
 			"\t},",
 			"\titems: [",
-			"\t\t${6:Use govuk-form-option snippet}",
+			"\t\t${6:Use govuk-option snippet}",
 			"\t]",
 			"}) }}$7",
 			"$0"
@@ -338,7 +338,7 @@
 		"description": "Radios – GOV.UK Design System"
 	},
 	"Select": {
-		"prefix": "govuk-form-select",
+		"prefix": "govuk-select",
 		"body": [
 			"{{ govukSelect({",
 			"\tid: \"$1\",",
@@ -347,7 +347,7 @@
 			"\t\ttext: \"${2:Label text}\"",
 			"\t},",
 			"\titems: [",
-			"\t\t${3:Use govuk-form-option snippet}",
+			"\t\t${3:Use govuk-option snippet}",
 			"\t]",
 			"}) }}$4",
 			"$0"
@@ -355,7 +355,7 @@
 		"description": "Select – GOV.UK Design System"
 	},
 	"Radio, checkbox or select option": {
-		"prefix": "govuk-form-option",
+		"prefix": "govuk-option",
 		"body": [
 			"{",
 				"value: \"$1\",",
@@ -366,7 +366,7 @@
 		"description": "Radio, checkbox or select option – GOV.UK Design System"
 	},
 	"Text input": {
-		"prefix": "govuk-form-input",
+		"prefix": "govuk-input",
 		"body": [
 			"{{ govukInput({",
 			"\tid: \"$1\",",
@@ -383,7 +383,7 @@
 		"description": "Text input – GOV.UK Design System"
 	},
 	"Textarea": {
-		"prefix": "govuk-form-textarea",
+		"prefix": "govuk-textarea",
 		"body": [
 			"{{ govukTextarea({",
 			"\tid: \"$1\",",
@@ -400,7 +400,7 @@
 		"description": "Textarea – GOV.UK Design System"
 	},
 	"Address": {
-		"prefix": "govuk-form-address",
+		"prefix": "govuk-address",
 		"body": [
 			"{% call govukFieldset({",
 			"\tlegend: {",
@@ -459,7 +459,7 @@
 		"description": "Addresses – GOV.UK Design System"
 	},
 	"Date input": {
-		"prefix": "govuk-form-date",
+		"prefix": "govuk-date",
 		"body": [
 			"{{ govukDateInput({",
 			"\tid: \"${1:date}\",",
@@ -491,7 +491,7 @@
 		"description": "Date input – GOV.UK Design System"
 	},
 	"File upload": {
-		"prefix": "govuk-form-file",
+		"prefix": "govuk-file",
 		"body": [
 			"{{ govukFileUpload({",
 			"\tid: \"${1:file-upload-1}\",",
@@ -505,7 +505,7 @@
 		"description": "File upload – GOV.UK Design System"
 	},
 	"National Insurance number (NINO)": {
-		"prefix": "govuk-form-nino",
+		"prefix": "govuk-nino",
 		"body": [
 			"{{ govukInput({",
 			"\tid: \"national-insurance-number\",",
