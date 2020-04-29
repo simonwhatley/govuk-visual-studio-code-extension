@@ -225,6 +225,13 @@
 		],
 		"description": "Links – GOV.UK Design System"
 	},
+	"Visually hidden": {
+		"prefix": "govuk-visually-hidden",
+		"body": [
+			"<span class=\"govuk-visually-hidden\">$1</span>$0"
+		],
+		"description": "Visually hidden text – GOV.UK Design System"
+	},
 	"Lists": {
 		"prefix": "govuk-list",
 		"body": [
