@@ -1,23 +1,27 @@
+# 1.0.6
+
+- Added visually hidden snippet
+
 # 1.0.5
 
-- [Rename form snippets](https://github.com/whatterz/govuk-visual-studio-code-extension/issues/13)
+- Renamed form snippets
 
 # 1.0.4
 
-- Fix snippets
-- Add tabs snippet
+- Fixed snippet bug
+- Added tabs snippet
 
 # 1.0.3
 
-- Improve documentation
+- Improved documentation
 
 # 1.0.2
 
-- Improve documentation
+- Improved documentation
 
 # 1.0.1
 
-- Update snippet prefix
+- Updated snippet prefix
 
 # 1.0.0
 
