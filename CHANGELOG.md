@@ -1,3 +1,11 @@
+# 1.0.7
+
+- Added value attribute to input, textarea, address, date and nino snippets
+- Added checked to checkbox and radio option snippets
+- Added selected to select option snippets
+- Updated link snippet to be inline
+- Added visually hidden snippet to docs
+
 # 1.0.6
 
 - Added visually hidden snippet

@@ -13,7 +13,7 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |[Button](https://design-system.service.gov.uk/components/button/)|`govuk-button`||
 |[Caption](https://design-system.service.gov.uk/styles/typography/#headings-with-captions)|`govuk-caption`||
 |[Checkboxes](https://design-system.service.gov.uk/components/checkboxes/)|`govuk-checkboxes`||
-|Checkbox, radio and select option|`govuk-option`|Use in conjunction with the `govuk-checkboxes`, `govuk-radios` and `govuk-select` Nunjucks snippets.|
+|Checkbox or radio option|`govuk-option`|Use in conjunction with the `govuk-checkboxes` and `govuk-radios` Nunjucks snippets.|
 |[Dates](https://design-system.service.gov.uk/components/date-input/)|`govuk-date`||
 |[Details](https://design-system.service.gov.uk/components/details/)|`govuk-details`||
 |[Error summary](https://design-system.service.gov.uk/components/error-summary/)|`govuk-error-summary`||
@@ -49,6 +49,7 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |[Radios](https://design-system.service.gov.uk/components/radios/)|`govuk-radios`||
 |[Section break](https://design-system.service.gov.uk/styles/typography/#section-break)|`govuk-section-break`||
 |[Select](https://design-system.service.gov.uk/components/select/)|`govuk-select`||
+|Select option|`govuk-select-option`|Use in conjunction with the `govuk-select` Nunjucks snippet.|
 |[Skip link](https://design-system.service.gov.uk/components/skip-link/)|`govuk-skip-link`||
 |[Tables](https://design-system.service.gov.uk/components/table/)|`govuk-table`||
 |[Tabs](https://design-system.service.gov.uk/components/tabs/)|`govuk-tabs`||
@@ -56,6 +57,7 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |[Tags](https://design-system.service.gov.uk/components/tag/)|`govuk-tag`||
 |[Text input](https://design-system.service.gov.uk/components/text-input/)|`govuk-input`||
 |[Textarea](https://design-system.service.gov.uk/components/textarea/)|`govuk-textarea`||
+|Visually hidden|`govuk-visually-hidden`|Creates a visually hidden `span`|
 |[Warning text](https://design-system.service.gov.uk/components/warning-text/)|`govuk-warning-text`||
 
 ## Dependencies
