@@ -1,3 +1,7 @@
+# 1.0.8
+
+- Updated documentation
+
 # 1.0.7
 
 - Added value attribute to input, textarea, address, date and nino snippets
