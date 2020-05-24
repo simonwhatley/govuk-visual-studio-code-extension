@@ -1,6 +1,6 @@
 {
   "name": "govuk-design-system-snippets",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "publisher": "simonwhatley",
   "displayName": "GOV.UK Design System snippets",
   "description": "GOV.UK Design System snippets for Nunjucks by Simon Whatley",
@@ -19,12 +19,12 @@
   "licence": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whatterz/govuk-visual-studio-code-extension.git"
+    "url": "git+https://github.com/simonwhatley/govuk-visual-studio-code-extension.git"
   },
   "bugs": {
-    "url": "https://github.com/whatterz/govuk-visual-studio-code-extension/issues"
+    "url": "https://github.com/simonwhatley/govuk-visual-studio-code-extension/issues"
   },
-  "homepage": "https://github.com/whatterz/govuk-visual-studio-code-extension#readme",
+  "homepage": "https://github.com/simonwhatley/govuk-visual-studio-code-extension#readme",
   "engines": {
     "vscode": "^1.44.0"
   },

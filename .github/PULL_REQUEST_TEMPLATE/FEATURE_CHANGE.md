@@ -17,11 +17,11 @@ Link to the issue or RFC to which your change relates. This link must be one of 
 
 To contribute an enhancement that isn't covered by one of the items above, please follow our guide for suggesting an enhancement:
 
-https://github.com/whatterz/govuk-visual-studio-code-extension/blob/master/CONTRIBUTING.md#suggesting-enhancements
+https://github.com/simonwhatley/govuk-visual-studio-code-extension/blob/master/CONTRIBUTING.md#suggesting-enhancements
 
 To contribute other changes, you must use a different template. You can see all templates at:
 
-https://github.com/whatterz/govuk-visual-studio-code-extension/tree/master/.github/PULL_REQUEST_TEMPLATE.
+https://github.com/simonwhatley/govuk-visual-studio-code-extension/tree/master/.github/PULL_REQUEST_TEMPLATE.
 
 -->
 
