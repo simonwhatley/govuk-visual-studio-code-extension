@@ -1,3 +1,7 @@
+# 1.0.10
+
+- Added autocomplete attributes to address snippet
+
 # 1.0.9
 
 - Reorganised documentation
