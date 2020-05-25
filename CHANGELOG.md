@@ -1,3 +1,7 @@
+# 1.0.9
+
+- Reorganised documentation
+
 # 1.0.8
 
 - Updated documentation
