@@ -559,6 +559,24 @@
 		],
 		"description": "National Insurance number (NINO) – GOV.UK Design System"
 	},
+	"Telephone number": {
+		"prefix": "govuk-telephone",
+		"body": [
+			"{{ govukInput({",
+			"\tid: \"${1:telephone}\",",
+			"\tname: \"${1:telephone}\",",
+			"\tlabel: {",
+			"\t\ttext: \"${2:Telephone number}\"",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"${3:Hint text}\"",
+      "\t},",
+      "\ttype: \"tel\",",
+      "\tautocomplete: \"tel\"",
+			"}) }}$0"
+		],
+		"description": "Telephone number – GOV.UK Design System"
+	},
 	"Back link": {
 		"prefix": "govuk-back-link",
 		"body": [
