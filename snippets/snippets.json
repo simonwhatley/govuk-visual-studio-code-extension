@@ -112,13 +112,15 @@
 	"Form fieldset": {
 		"prefix": "govuk-fieldset",
 		"body": [
-		"{{ govukFieldset({",
+		"{% call govukFieldset({",
 		"\tlegend: {",
 		"\t\ttext: \"${1:Legend text}\",",
 		"\t\tclasses: \"govuk-fieldset__legend--${2:xl|l|m}\",",
 		"\t\tisPageHeading: ${3:true|false}",
 		"\t}",
-		"}) }}$0"
+    "}) %}",
+    "$4",
+    "{% endcall %}$0"
 		],
 		"description": "Form fieldset – GOV.UK Design System"
 	},
