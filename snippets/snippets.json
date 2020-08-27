@@ -506,6 +506,25 @@
 		],
 		"description": "Date input – GOV.UK Design System"
 	},
+	"Email address": {
+		"prefix": "govuk-email",
+		"body": [
+			"{{ govukInput({",
+			"\tid: \"${1:email}\",",
+			"\tname: \"${1:email}\",",
+			"\tlabel: {",
+			"\t\ttext: \"${2:Email address}\"",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"${3:Hint text}\"",
+      "\t},",
+      "\ttype: \"email\",",
+      "\tautocomplete: \"email\",",
+      "\tspellcheck: false",
+			"}) }}$0"
+		],
+		"description": "Email address – GOV.UK Design System"
+	},
 	"File upload": {
 		"prefix": "govuk-file",
 		"body": [
@@ -514,7 +533,7 @@
 			"\tname: \"${1:file-upload-1}\",",
 			"\tlabel: {",
 			"\t\ttext: \"${2:Upload a file}\"",
-			"\t}",
+			"\t},",
 			"\thint: {",
 			"\t\ttext: \"${3:Hint text}\"",
 			"\t}",

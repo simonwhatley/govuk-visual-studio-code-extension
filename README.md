@@ -52,6 +52,7 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |[Checkboxes](https://design-system.service.gov.uk/components/checkboxes/)|`govuk-checkboxes`||
 |Checkbox or radio option|`govuk-option`|Use in conjunction with the `govuk-checkboxes` and `govuk-radios` Nunjucks snippets.|
 |[Dates](https://design-system.service.gov.uk/components/date-input/)|`govuk-date`||
+|[Email address](https://design-system.service.gov.uk/patterns/email-addresses/)|`govuk-email`||
 |[Error summary](https://design-system.service.gov.uk/components/error-summary/)|`govuk-error-summary`||
 |[Fieldset](https://design-system.service.gov.uk/components/fieldset/)|`govuk-fieldset`||
 |[File upload](https://design-system.service.gov.uk/components/file-upload/)|`govuk-file`||
