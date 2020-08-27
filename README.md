@@ -60,6 +60,7 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |[Radios](https://design-system.service.gov.uk/components/radios/)|`govuk-radios`||
 |[Select](https://design-system.service.gov.uk/components/select/)|`govuk-select`||
 |Select option|`govuk-select-option`|Use in conjunction with the `govuk-select` Nunjucks snippet.|
+|[Telephone number](https://design-system.service.gov.uk/patterns/telephone-numbers/)|`govuk-telephone`||
 |[Text input](https://design-system.service.gov.uk/components/text-input/)|`govuk-input`||
 |[Textarea](https://design-system.service.gov.uk/components/textarea/)|`govuk-textarea`||
 
