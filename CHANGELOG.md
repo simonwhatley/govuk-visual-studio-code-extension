@@ -1,3 +1,9 @@
+# 1.1.0
+
+- Fixed fieldset snippet
+- Added email address component (a derivative of `govukInput`)
+- Added telephone number component (a derivative of `govukInput`)
+
 # 1.0.10
 
 - Added autocomplete attributes to address snippet
