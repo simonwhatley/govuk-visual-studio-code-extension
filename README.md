@@ -74,6 +74,7 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |[Inset text](https://design-system.service.gov.uk/components/inset-text/)|`govuk-inset-text`||
 |[Panels](https://design-system.service.gov.uk/components/panel/)|`govuk-panel`||
 |[Phase banner](https://design-system.service.gov.uk/components/phase-banner/)|`govuk-phase-banner`||
+|[Summary list](https://design-system.service.gov.uk/components/summary-list/)|`govuk-summary-list`||
 |[Tables](https://design-system.service.gov.uk/components/table/)|`govuk-table`||
 |[Tabs](https://design-system.service.gov.uk/components/tabs/)|`govuk-tabs`||
 |Tab item HTML|`govuk-tab-item`|Use in conjunction with the `govuk-tabs` snippet. This snippet can be used to encapsulate a tab panel.|
