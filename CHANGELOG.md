@@ -1,3 +1,7 @@
+# 1.5.0
+
+- Added accordion component
+
 # 1.4.0
 
 - Added summary list component
