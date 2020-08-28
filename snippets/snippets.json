@@ -547,6 +547,23 @@
 		],
 		"description": "Bank details – GOV.UK Design System"
 	},
+	"Character count": {
+		"prefix": "govuk-character-count",
+		"body": [
+      "{{ govukCharacterCount({",
+      "\tname: \"$1\",",
+      "\tid: \"$1\",",
+      "\tmaxlength: ${2:200},",
+      "\tlabel: {",
+      "\t\ttext: \"${3:Label text}\"",
+      "\t},",
+      "\thint: {",
+      "\t\ttext: \"${4:Hint text}\"",
+      "\t}",
+      "}) }}$0"
+		],
+		"description": "Character count – GOV.UK Design System"
+	},
 	"Date input": {
 		"prefix": "govuk-date",
 		"body": [
