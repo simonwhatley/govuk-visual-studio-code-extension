@@ -48,6 +48,7 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |Name|Shortcut|Notes|
 |-------------------------|-------------------------|---|
 |[Addresses](https://design-system.service.gov.uk/patterns/addresses/)|`govuk-address`||
+|[Bank details](https://design-system.service.gov.uk/patterns/bank-details/)|`govuk-bank-details`||
 |[Button](https://design-system.service.gov.uk/components/button/)|`govuk-button`||
 |[Checkboxes](https://design-system.service.gov.uk/components/checkboxes/)|`govuk-checkboxes`||
 |Checkbox or radio option|`govuk-option`|Use in conjunction with the `govuk-checkboxes` and `govuk-radios` Nunjucks snippets.|
