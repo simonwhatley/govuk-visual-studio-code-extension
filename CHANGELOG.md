@@ -1,3 +1,7 @@
+# 1.2.0
+
+- Added bank details component
+
 # 1.1.0
 
 - Fixed fieldset snippet
