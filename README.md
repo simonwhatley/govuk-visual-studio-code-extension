@@ -70,6 +70,7 @@ This extension for Visual Studio Code includes snippets to help in the building 
 
 |Name|Shortcut|Notes|
 |-------------------------|-------------------------|---|
+|[Accordion](https://design-system.service.gov.uk/components/accordion/)|`govuk-accordion`||
 |[Details](https://design-system.service.gov.uk/components/details/)|`govuk-details`||
 |[Inset text](https://design-system.service.gov.uk/components/inset-text/)|`govuk-inset-text`||
 |[Panels](https://design-system.service.gov.uk/components/panel/)|`govuk-panel`||
