@@ -1,3 +1,7 @@
+# 1.7.0
+
+- Added notification banner component
+
 # 1.6.0
 
 - Added currency component (a derivative of `govukInput`)
