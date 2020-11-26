@@ -1,3 +1,7 @@
+# 1.6.0
+
+- Added currency component (a derivative of `govukInput`)
+
 # 1.5.0
 
 - Added accordion component

@@ -388,6 +388,28 @@
 		],
 		"description": "Text input – GOV.UK Design System"
 	},
+	"Currency input": {
+		"prefix": "govuk-currency-input",
+		"body": [
+			"{{ govukInput({",
+			"\tid: \"$1\",",
+			"\tname: \"$1\",",
+			"\tlabel: {",
+			"\t\ttext: \"${2:Label text}\"",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"${3:Hint text}\"",
+      "\t},",
+			"\tprefix: {",
+			"\t\ttext: \"${4:£}\"",
+      "\t},",
+      "\tvalue: \"${5:Value}\",",
+      "\tspellcheck: false",
+			"}) }}",
+			"$0"
+		],
+		"description": "Currency input – GOV.UK Design System"
+	},
 	"Textarea": {
 		"prefix": "govuk-textarea",
 		"body": [
