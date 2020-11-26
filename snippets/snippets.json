@@ -805,6 +805,16 @@
 		],
 		"description": "Inset text – GOV.UK Design System"
 	},
+	"Notification banner": {
+		"prefix": "govuk-notification-banner",
+		"body": [
+      "{{ govukNotificationBanner({",
+      "\ttype: \"${1:success|null}\",",
+			"\ttext: \"${2:Text}\"",
+			"}) }}$0"
+		],
+		"description": "Notification banner – GOV.UK Design System"
+	},
 	"Link item": {
 		"prefix": "govuk-link-item",
 		"body": [

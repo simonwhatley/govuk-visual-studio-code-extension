@@ -74,6 +74,7 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |[Accordion](https://design-system.service.gov.uk/components/accordion/)|`govuk-accordion`||
 |[Details](https://design-system.service.gov.uk/components/details/)|`govuk-details`||
 |[Inset text](https://design-system.service.gov.uk/components/inset-text/)|`govuk-inset-text`||
+|[Notification banner](https://design-system.service.gov.uk/components/notification-banner/)|`govuk-notification-banner`||
 |[Panels](https://design-system.service.gov.uk/components/panel/)|`govuk-panel`||
 |[Phase banner](https://design-system.service.gov.uk/components/phase-banner/)|`govuk-phase-banner`||
 |[Summary list](https://design-system.service.gov.uk/components/summary-list/)|`govuk-summary-list`||
