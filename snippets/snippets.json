@@ -155,7 +155,7 @@
 		"body": [
 			"<p class=\"govuk-body\">",
 			"\t$1",
-			"<p>$0"
+			"</p>$0"
 		],
 		"description": "Paragraph body – GOV.UK Design System"
 	  },
@@ -164,7 +164,7 @@
 		"body": [
 			"<p class=\"govuk-body-s\">",
 			"\t$1",
-			"<p>$0"
+			"</p>$0"
 		],
 		"description": "Paragraph body small – GOV.UK Design System"
 	},
@@ -173,7 +173,7 @@
 		"body": [
 			"<p class=\"govuk-body-l\">",
 			"\t$1",
-			"<p>$0"
+			"</p>$0"
 		],
 		"description": "Lead paragraph – GOV.UK Design System"
 	},
@@ -183,7 +183,7 @@
 			"{# Font sizes: 80, 48, 36, 27, 24, 19, 16, 14 #}",
 			"<p class=\"govuk-body govuk-!-font-size-${1:size}\">",
 			"\t$2",
-			"<p>$0"
+			"</p>$0"
 		],
 		"description": "Font size override – GOV.UK Design System"
 	},
@@ -193,7 +193,7 @@
 			"{# Font weights: regular, bold #}",
 			"<p class=\"govuk-body govuk-!-font-weight-${1:bold}\">",
 			"\t$2",
-			"<p>$0"
+			"</p>$0"
 		],
 		"description": "Font weight override – GOV.UK Design System"
 	},
