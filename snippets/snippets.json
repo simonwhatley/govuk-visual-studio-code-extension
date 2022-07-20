@@ -1027,10 +1027,10 @@
 		"body": [
 			"{{ govukPagination({",
       "\tprevious: {",
-      "\t\thref: \"#\"",
+      "\t\thref: \"${1:#}\"",
       "\t},",
       "\tnext: {",
-      "\t\thref: \"#\"",
+      "\t\thref: \"${2:#}\"",
       "\t},",
       "\titems: [",
       "\t\t{",
@@ -1047,7 +1047,7 @@
       "\t\t\thref: \"#\"",
       "\t\t}",
       "\t]",
-      "}) }}"
+      "}) }}$0"
 		],
 		"description": "Pagination – GOV.UK Design System"
 	},
@@ -1056,14 +1056,14 @@
 		"body": [
 			"{{ govukPagination({",
       "\tprevious: {",
-      "\t\tlabelText: \"1 of 3\",",
-      "\t\thref: \"#\"",
+      "\t\tlabelText: \"${1:Label text}\",",
+      "\t\thref: \"${2:#}\"",
       "\t},",
       "\tnext: {",
-      "\t\tlabelText: \"3 of 3\",",
-      "\t\thref: \"#\"",
+      "\t\tlabelText: \"${3:Label text}\",",
+      "\t\thref: \"${4:#}\"",
       "\t}",
-      "}) }}"
+      "}) }}$0"
 		],
 		"description": "Previous/next navigation – GOV.UK Design System"
 	}
