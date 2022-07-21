@@ -1,3 +1,9 @@
+# 1.9.0
+
+- Added cookie banner component
+- Updated date component
+- Updated address pattern
+
 # 1.8.0
 
 - Added pagination component
