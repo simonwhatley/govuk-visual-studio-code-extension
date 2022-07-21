@@ -1072,5 +1072,43 @@
       "}) }}$0"
 		],
 		"description": "Previous/next navigation – GOV.UK Design System"
+	},
+	"Cookie banner": {
+		"prefix": "govuk-cookie-banner",
+		"body": [
+			"{% set cookieHtml %}",
+      "\t<p class=\"govuk-body\">We use some essential cookies to make this service work.</p>",
+      "\t<p class=\"govuk-body\">We’d also like to use analytics cookies so we can understand how you use the service and make improvements.</p>",
+      "{% endset %}",
+      "",
+      "{{ govukCookieBanner({",
+      "\tariaLabel: \"Cookies on ${1:[name of service]}\",",
+      "\tmessages: [",
+      "\t\t{",
+      "\t\t\theadingText: \"Cookies on ${1:[name of service]}\",",
+      "\t\t\thtml: cookieHtml,",
+      "\t\t\tactions: [",
+      "\t\t\t\t{",
+      "\t\t\t\t\ttext: \"Accept analytics cookies\",",
+      "\t\t\t\t\ttype: \"button\",",
+      "\t\t\t\t\tname: \"cookies\",",
+      "\t\t\t\t\tvalue: \"accept\"",
+      "\t\t\t\t},",
+      "\t\t\t\t{",
+      "\t\t\t\t\ttext: \"Reject analytics cookies\",",
+      "\t\t\t\t\ttype: \"button\",",
+      "\t\t\t\t\tname: \"cookies\",",
+      "\t\t\t\t\tvalue: \"reject\"",
+      "\t\t\t\t},",
+      "\t\t\t\t{",
+      "\t\t\t\t\ttext: \"View cookies\",",
+      "\t\t\t\t\thref: \"${2:#}\"",
+      "\t\t\t\t}",
+      "\t\t\t]",
+      "\t\t}",
+      "\t]",
+      "}) }}$0"
+		],
+		"description": "Cookie banner – GOV.UK Design System"
 	}
 }
