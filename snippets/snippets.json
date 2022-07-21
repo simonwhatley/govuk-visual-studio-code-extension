@@ -591,7 +591,7 @@
 		"body": [
 			"{{ govukDateInput({",
 			"\tid: \"${1:date}\",",
-			"\tname: \"${1:date}\",",
+			"\tnamePrefix: \"${1:date}\",",
 			"\tfieldset: {",
 			"\t\tlegend: {",
 			"\t\t\ttext: \"${2:Legend text}\",",
