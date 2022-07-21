@@ -96,6 +96,12 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |[Previous/next navigation](https://design-system.service.gov.uk/components/pagination/)|`govuk-previous-next`||
 |[Skip link](https://design-system.service.gov.uk/components/skip-link/)|`govuk-skip-link`||
 
+#### Miscellaneous
+
+|Name|Shortcut|Notes|
+|-------------------------|-------------------------|---|
+|[Cookie banner](https://design-system.service.gov.uk/components/cookie-banner/)|`govuk-cookie-banner`||
+
 ## Dependencies
 Using this extension depends on the installation of the [GOV.UK Frontend](https://www.npmjs.com/package/govuk-frontend) and [Nunjucks](https://www.npmjs.com/package/nunjucks) into your project.
 
