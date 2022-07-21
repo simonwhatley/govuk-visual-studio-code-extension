@@ -1,3 +1,8 @@
+# 1.8.0
+
+- Added pagination component
+- Fixed paragraph snippet
+
 # 1.7.0
 
 - Added notification banner component

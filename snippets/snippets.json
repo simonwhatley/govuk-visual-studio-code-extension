@@ -1021,5 +1021,50 @@
 			"}) }}$0"
 		],
 		"description": "Warning text – GOV.UK Design System"
+	},
+	"Pagination": {
+		"prefix": "govuk-pagination",
+		"body": [
+			"{{ govukPagination({",
+      "\tprevious: {",
+      "\t\thref: \"${1:#}\"",
+      "\t},",
+      "\tnext: {",
+      "\t\thref: \"${2:#}\"",
+      "\t},",
+      "\titems: [",
+      "\t\t{",
+      "\t\t\tnumber: 1,",
+      "\t\t\thref: \"#\"",
+      "\t\t},",
+      "\t\t{",
+      "\t\t\tnumber: 2,",
+      "\t\t\tcurrent: true,",
+      "\t\t\thref: \"#\"",
+      "\t\t},",
+      "\t\t{",
+      "\t\t\tnumber: 3,",
+      "\t\t\thref: \"#\"",
+      "\t\t}",
+      "\t]",
+      "}) }}$0"
+		],
+		"description": "Pagination – GOV.UK Design System"
+	},
+	"Previous/next navigation": {
+		"prefix": "govuk-previous-next",
+		"body": [
+			"{{ govukPagination({",
+      "\tprevious: {",
+      "\t\tlabelText: \"${1:Label text}\",",
+      "\t\thref: \"${2:#}\"",
+      "\t},",
+      "\tnext: {",
+      "\t\tlabelText: \"${3:Label text}\",",
+      "\t\thref: \"${4:#}\"",
+      "\t}",
+      "}) }}$0"
+		],
+		"description": "Previous/next navigation – GOV.UK Design System"
 	}
 }
