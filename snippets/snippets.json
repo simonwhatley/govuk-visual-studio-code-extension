@@ -315,7 +315,7 @@
 			"\titems: [",
       "\t\t{",
       "\t\t\tvalue: \"${7:value}\",",
-      "\t\t\ttext: \"${8:Text}\",",
+      "\t\t\ttext: \"${8:Text}\"",
 			"\t\t}$9",
 			"\t]",
 			"}) }}$0"
