@@ -1106,5 +1106,12 @@
       "}) }}$0"
 		],
 		"description": "Cookie banner – GOV.UK Design System"
+	},
+	"Exit this page": {
+		"prefix": "govuk-exit-page",
+		"body": [
+			"{{ govukExitThisPage() }}$0"
+		],
+		"description": "Exit this page – GOV.UK Design System"
 	}
 }
