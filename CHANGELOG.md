@@ -1,3 +1,10 @@
+# 1.10.0
+
+- Added exit this page component
+- Updated date component
+- Updated checkbox component
+- Updated radio buttons component
+
 # 1.9.0
 
 - Added cookie banner component

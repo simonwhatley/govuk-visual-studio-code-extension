@@ -90,6 +90,7 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |-------------------------|-------------------------|---|
 |[Back link](https://design-system.service.gov.uk/components/back-link/)|`govuk-back-link`||
 |[Breadcrumbs](https://design-system.service.gov.uk/components/breadcrumbs/)|`govuk-breadcrumbs`||
+|[Exit this page](https://design-system.service.gov.uk/components/exit-this-page/)|`govuk-exit-page`||
 |[Footer](https://design-system.service.gov.uk/components/footer/)|`govuk-footer`||
 |[Header](https://design-system.service.gov.uk/components/header/)|`govuk-header`||
 |[Pagination](https://design-system.service.gov.uk/components/pagination/)|`govuk-pagination`||
