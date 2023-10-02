@@ -435,7 +435,7 @@
 			"\thint: {",
 			"\t\ttext: \"${3:Hint text}\"",
 			"\t},",
-      "\tvalue: \"${4:Value}\"",
+      "\tvalue: data.$4,",
 			"}) }}$0"
 		],
 		"description": "Textarea – GOV.UK Design System"
