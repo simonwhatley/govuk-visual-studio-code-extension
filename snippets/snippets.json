@@ -361,7 +361,6 @@
 			"{",
       "\tvalue: \"$1\",",
       "\ttext: \"$2\",",
-      "\tchecked: $3",
 			"}$0"
 		],
 		"description": "Radio or checkbox option – GOV.UK Design System"
