@@ -704,6 +704,7 @@
 			"\thint: {",
 			"\t\ttext: \"${3:Hint text}\"",
       "\t},",
+      "\tvalue: data.${4:telephone},",
       "\ttype: \"tel\",",
       "\tautocomplete: \"tel\"",
 			"}) }}$0"
