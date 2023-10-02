@@ -650,6 +650,7 @@
 			"\thint: {",
 			"\t\ttext: \"${3:Hint text}\"",
       "\t},",
+      "\tvalue: data.${4:email},",
       "\ttype: \"email\",",
       "\tautocomplete: \"email\",",
       "\tspellcheck: false",
