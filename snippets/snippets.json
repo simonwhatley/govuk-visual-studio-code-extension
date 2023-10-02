@@ -416,7 +416,7 @@
 			"\tprefix: {",
 			"\t\ttext: \"${4:£}\"",
       "\t},",
-      "\tvalue: \"${5:Value}\",",
+      "\tvalue: data.$5,",
       "\tspellcheck: false",
 			"}) }}",
 			"$0"
