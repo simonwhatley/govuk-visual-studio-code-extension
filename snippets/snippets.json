@@ -379,7 +379,6 @@
 			"{",
       "\tvalue: \"$1\",",
       "\ttext: \"$2\",",
-      "\tselected: $3",
 			"}$0"
 		],
 		"description": "Select option – GOV.UK Design System"
