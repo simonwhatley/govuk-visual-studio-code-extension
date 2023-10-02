@@ -311,7 +311,7 @@
 			"\t\t\tclasses: \"govuk-fieldset__legend--${5:xl}\"",
 			"\t\t}",
 			"\t},",
-      "\tvalue: data.$6",
+      "\tvalue: data.$6,",
 			"\titems: [",
       "\t\t{",
       "\t\t\tvalue: \"${7:value}\",",
