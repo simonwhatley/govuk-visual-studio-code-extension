@@ -392,14 +392,15 @@
 			"\tid: \"$1\",",
 			"\tname: \"$1\",",
 			"\tlabel: {",
-			"\t\ttext: \"${2:Label text}\"",
+			"\t\ttext: \"${2:Label text}\",",
+      "\t\tisPageHeading: ${3:true},",
+      "\t\tclasses: \"govuk-label--${4:xl}\"",
 			"\t},",
 			"\thint: {",
-			"\t\ttext: \"${3:Hint text}\"",
+			"\t\ttext: \"${5:Hint text}\"",
       "\t},",
-      "\tvalue: data.$4,",
-			"}) }}",
-			"$0"
+      "\tvalue: data.$6",
+			"}) }}$0"
 		],
 		"description": "Text input – GOV.UK Design System"
 	},
