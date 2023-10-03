@@ -518,7 +518,7 @@
 		"body": [
 			"{% call govukFieldset({",
       "\tlegend: {",
-      "\t\ttext: \"${1:What are your bank or building society account details?}\",",
+      "\t\ttext: \"${1:Bank or building society account details}\",",
       "\t\tclasses: \"govuk-fieldset__legend--${2:xl}\",",
       "\t\tisPageHeading: ${3:true}",
       "\t}",
