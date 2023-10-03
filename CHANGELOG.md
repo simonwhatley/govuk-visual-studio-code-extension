@@ -1,3 +1,11 @@
+# 2.0.0
+
+- Fixed the date, checkbox and radio button snippets - ht @adamsilver
+- Added `value` attributes to the text input, text area, select, currency, national insurance number, email and telephone snippets
+- Removed `checked` from the radio or checkbox option snippet
+- Removed `selected` from the select option snippet
+- Reorganised and updated the address and bank details snippets
+
 # 1.10.0
 
 - Added exit this page component
