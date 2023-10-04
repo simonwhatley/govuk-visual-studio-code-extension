@@ -451,7 +451,7 @@
 		"body": [
 			"{% call govukFieldset({",
 			"\tlegend: {",
-			"\t\ttext: \"${1:What is your address?}\",",
+			"\t\ttext: \"${1:Address}\",",
       "\t\tisPageHeading: ${2:true},",
 			"\t\tclasses: \"govuk-fieldset__legend--${3:xl}\"",
 			"\t}",
