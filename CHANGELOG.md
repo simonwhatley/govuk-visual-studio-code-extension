@@ -1,3 +1,18 @@
+# 2.1.0
+
+- Added page heading attributes to:
+  - character count
+  - currency input
+  - email address
+  - file upload
+  - national insurance number
+  - select
+  - telephone
+  - textarea
+  - text input
+- Updated address field names - address lines 1 and 2
+- Updated address and bank details legend text
+
 # 2.0.0
 
 - Fixed the date, checkbox and radio button snippets - ht @adamsilver

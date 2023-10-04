@@ -1,6 +1,6 @@
 {
   "name": "govuk-design-system-snippets",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "publisher": "simonwhatley",
   "displayName": "GOV.UK Design System snippets",
   "description": "GOV.UK Design System snippets for Nunjucks by Simon Whatley",
