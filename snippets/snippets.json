@@ -115,7 +115,7 @@
 		"{% call govukFieldset({",
 		"\tlegend: {",
 		"\t\ttext: \"${1:Legend text}\",",
-		"\t\tclasses: \"govuk-fieldset__legend--${2:xl|l|m}\",",
+		"\t\tclasses: \"govuk-fieldset__legend--${2:xl}\",",
 		"\t\tisPageHeading: ${3:true|false}",
 		"\t}",
     "}) %}",
@@ -135,7 +135,7 @@
 	"Headings": {
 		"prefix": "govuk-heading",
 		"body": [
-			"<h${1:1} class=\"govuk-heading-${2:xl|l|m}\">",
+			"<h${1:1} class=\"govuk-heading-${2:xl}\">",
 			"\t$3",
 			"</h${1:1}>$0"
 		],
@@ -144,7 +144,7 @@
 	"Captions": {
 		"prefix": "govuk-caption",
 		"body": [
-			"<span class=\"govuk-caption-${1:xl|l|m}\">",
+			"<span class=\"govuk-caption-${1:xl}\">",
 			"\t$2",
 			"</span>$0"
 		],
