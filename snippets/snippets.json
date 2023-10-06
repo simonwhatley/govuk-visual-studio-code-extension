@@ -1039,7 +1039,7 @@
 		"body": [
 			"{% set ${1:Tab name} %}",
 			"<h2 class=\"govuk-heading-l\">${2:Tab heading}</h2>",
-			"\t$3",
+			"$3",
 			"{% endset %}$0"
 		],
 		"description": "Tab item – GOV.UK Design System"
