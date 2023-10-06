@@ -1,3 +1,7 @@
+# 2.2.0
+
+- Various small fixes
+
 # 2.1.0
 
 - Added page heading attributes to:
