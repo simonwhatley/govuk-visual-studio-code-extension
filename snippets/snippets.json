@@ -116,7 +116,7 @@
 		"\tlegend: {",
 		"\t\ttext: \"${1:Legend text}\",",
 		"\t\tclasses: \"govuk-fieldset__legend--${2:xl}\",",
-		"\t\tisPageHeading: ${3:true|false}",
+		"\t\tisPageHeading: ${3:true}",
 		"\t}",
     "}) %}",
     "$4",
