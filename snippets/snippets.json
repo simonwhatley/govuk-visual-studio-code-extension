@@ -370,7 +370,7 @@
 		"body": [
 			"{",
       "\tvalue: \"$1\",",
-      "\ttext: \"$2\",",
+      "\ttext: \"$2\"",
 			"}$0"
 		],
 		"description": "Radio or checkbox option – GOV.UK Design System"
@@ -380,7 +380,7 @@
 		"body": [
 			"{",
       "\tvalue: \"$1\",",
-      "\ttext: \"$2\",",
+      "\ttext: \"$2\"",
 			"}$0"
 		],
 		"description": "Select option – GOV.UK Design System"
