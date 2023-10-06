@@ -115,8 +115,8 @@
 		"{% call govukFieldset({",
 		"\tlegend: {",
 		"\t\ttext: \"${1:Legend text}\",",
-		"\t\tclasses: \"govuk-fieldset__legend--${2:xl|l|m}\",",
-		"\t\tisPageHeading: ${3:true|false}",
+		"\t\tclasses: \"govuk-fieldset__legend--${2:xl}\",",
+		"\t\tisPageHeading: ${3:true}",
 		"\t}",
     "}) %}",
     "$4",
@@ -135,7 +135,7 @@
 	"Headings": {
 		"prefix": "govuk-heading",
 		"body": [
-			"<h${1:1} class=\"govuk-heading-${2:xl|l|m}\">",
+			"<h${1:1} class=\"govuk-heading-${2:xl}\">",
 			"\t$3",
 			"</h${1:1}>$0"
 		],
@@ -144,7 +144,7 @@
 	"Captions": {
 		"prefix": "govuk-caption",
 		"body": [
-			"<span class=\"govuk-caption-${1:xl|l|m}\">",
+			"<span class=\"govuk-caption-${1:xl}\">",
 			"\t$2",
 			"</span>$0"
 		],
@@ -370,7 +370,7 @@
 		"body": [
 			"{",
       "\tvalue: \"$1\",",
-      "\ttext: \"$2\",",
+      "\ttext: \"$2\"",
 			"}$0"
 		],
 		"description": "Radio or checkbox option – GOV.UK Design System"
@@ -380,7 +380,7 @@
 		"body": [
 			"{",
       "\tvalue: \"$1\",",
-      "\ttext: \"$2\",",
+      "\ttext: \"$2\"",
 			"}$0"
 		],
 		"description": "Select option – GOV.UK Design System"
@@ -1009,24 +1009,24 @@
 			"{{ govukTabs({",
 			"\titems: [",
 			"\t\t{",
-			"\t\t\tlabel: \"$1\",",
-			"\t\t\tid: \"$2\",",
+			"\t\t\tlabel: \"${1:Tab one}\",",
+			"\t\t\tid: \"${2:tab-1}\",",
 			"\t\t\tpanel: {",
-			"\t\t\t\thtml: ${3:Tab html}",
+			"\t\t\t\thtml: ${3:tab1Html}",
 			"\t\t\t}",
-			"\t\t}",
+			"\t\t},",
 			"\t\t{",
-			"\t\t\tlabel: \"$4\",",
-			"\t\t\tid: \"$5\",",
+			"\t\t\tlabel: \"${4:Tab two}\",",
+			"\t\t\tid: \"${5:tab-2}\",",
 			"\t\t\tpanel: {",
-			"\t\t\t\thtml: ${6:Tab html}",
+			"\t\t\t\thtml: ${6:tab2Html}",
 			"\t\t\t}",
-			"\t\t}",
+			"\t\t},",
 			"\t\t{",
-			"\t\t\tlabel: \"$7\",",
-			"\t\t\tid: \"$8\",",
+			"\t\t\tlabel: \"${7:Tab three}\",",
+			"\t\t\tid: \"${8:tab-3}\",",
 			"\t\t\tpanel: {",
-			"\t\t\t\thtml: ${9:Tab html}",
+			"\t\t\t\thtml: ${9:tab3Html}",
 			"\t\t\t}",
 			"\t\t}",
 			"\t]",
@@ -1037,9 +1037,9 @@
 	"Tab item set": {
 		"prefix": "govuk-tab-item",
 		"body": [
-			"{% set ${1:Tab name} %}",
+			"{% set ${1:tabName} %}",
 			"<h2 class=\"govuk-heading-l\">${2:Tab heading}</h2>",
-			"\t$3",
+			"$3",
 			"{% endset %}$0"
 		],
 		"description": "Tab item – GOV.UK Design System"
