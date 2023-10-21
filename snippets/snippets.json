@@ -135,45 +135,35 @@
 	"Headings": {
 		"prefix": "govuk-heading",
 		"body": [
-			"<h${1:1} class=\"govuk-heading-${2:xl}\">",
-			"\t$3",
-			"</h${1:1}>$0"
+			"<h${1:1} class=\"govuk-heading-${2:xl}\">$3</h${1:1}>$0"
 		],
 		"description": "Headings – GOV.UK Design System"
 	},
 	"Captions": {
 		"prefix": "govuk-caption",
 		"body": [
-			"<span class=\"govuk-caption-${1:xl}\">",
-			"\t$2",
-			"</span>$0"
+			"<span class=\"govuk-caption-${1:xl}\">$2</span>$0"
 		],
 		"description": "Captions – GOV.UK Design System"
 	},
 	"Paragraph body": {
 		"prefix": "govuk-paragraph-body",
 		"body": [
-			"<p class=\"govuk-body\">",
-			"\t$1",
-			"</p>$0"
+			"<p class=\"govuk-body\">$1</p>$0"
 		],
 		"description": "Paragraph body – GOV.UK Design System"
 	  },
 	"Paragraph body small": {
 		"prefix": "govuk-paragraph-body-small",
 		"body": [
-			"<p class=\"govuk-body-s\">",
-			"\t$1",
-			"</p>$0"
+			"<p class=\"govuk-body-s\">$1</p>$0"
 		],
 		"description": "Paragraph body small – GOV.UK Design System"
 	},
 	"Lead paragraph": {
 		"prefix": "govuk-paragraph-lead",
 		"body": [
-			"<p class=\"govuk-body-l\">",
-			"\t$1",
-			"</p>$0"
+			"<p class=\"govuk-body-l\">$1</p>$0"
 		],
 		"description": "Lead paragraph – GOV.UK Design System"
 	},
@@ -181,9 +171,7 @@
 		"prefix": "govuk-font-size",
 		"body": [
 			"{# Font sizes: 80, 48, 36, 27, 24, 19, 16, 14 #}",
-			"<p class=\"govuk-body govuk-!-font-size-${1:size}\">",
-			"\t$2",
-			"</p>$0"
+			"<p class=\"govuk-body govuk-!-font-size-${1:size}\">$2</p>$0"
 		],
 		"description": "Font size override – GOV.UK Design System"
 	},
@@ -191,9 +179,7 @@
 		"prefix": "govuk-font-weight",
 		"body": [
 			"{# Font weights: regular, bold #}",
-			"<p class=\"govuk-body govuk-!-font-weight-${1:bold}\">",
-			"\t$2",
-			"</p>$0"
+			"<p class=\"govuk-body govuk-!-font-weight-${1:bold}\">$2</p>$0"
 		],
 		"description": "Font weight override – GOV.UK Design System"
 	},
