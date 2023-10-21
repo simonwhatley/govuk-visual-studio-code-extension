@@ -1,3 +1,12 @@
+# 2.3.0
+
+Updated snippets:
+- headings
+- captions
+- paragraphs (regular, lead and small)
+- font size override
+- font weight override
+
 # 2.2.0
 
 - Various small fixes
