@@ -1153,8 +1153,8 @@
 			"\t\t\thref: \"${4:#}\"",
 			"\t\t},",
       "\t\t{",
-			"\t\t\ttext: \"${6:Navigation item 3}\",",
-			"\t\t\thref: \"${7:#}\"",
+			"\t\t\ttext: \"${5:Navigation item 3}\",",
+			"\t\t\thref: \"${6:#}\"",
 			"\t\t}",
 			"\t]",
       "}) }}$0"
