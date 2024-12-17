@@ -776,7 +776,17 @@
 		"body": [
 			"{{ govukBreadcrumbs({",
 			"\titems: [",
-			"\t\t${1:Use govuk-link-item snippet}",
+			"\t\t{",
+			"\t\t\ttext: \"${1:Home}\",",
+			"\t\t\thref: \"${2:#}\"",
+			"\t\t},",
+      "\t\t{",
+			"\t\t\ttext: \"${3:Breadcrumb item 2}\",",
+			"\t\t\thref: \"${4:#}\"",
+			"\t\t},",
+      "\t\t{",
+			"\t\t\ttext: \"${5:Breadcrumb item 3}\"",
+			"\t\t}",
 			"\t]",
 			"}) }}$0"
 		],
