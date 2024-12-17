@@ -1138,5 +1138,27 @@
 			"{{ govukExitThisPage() }}$0"
 		],
 		"description": "Exit this page – GOV.UK Design System"
+	},
+	"Service navigation": {
+		"prefix": "govuk-service-navigation",
+		"body": [
+			"{{ govukServiceNavigation({",
+      "\tnavigation: [",
+      "\t\t{",
+			"\t\t\ttext: \"${1:Navigation item 1}\",",
+			"\t\t\thref: \"${2:#}\"",
+			"\t\t},",
+      "\t\t{",
+			"\t\t\ttext: \"${3:Navigation item 2}\",",
+			"\t\t\thref: \"${4:#}\"",
+			"\t\t},",
+      "\t\t{",
+			"\t\t\ttext: \"${5:Navigation item 3}\",",
+			"\t\t\thref: \"${6:#}\"",
+			"\t\t}",
+			"\t]",
+      "}) }}$0"
+		],
+		"description": "Service navigation – GOV.UK Design System"
 	}
 }
