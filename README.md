@@ -95,6 +95,7 @@ This extension for Visual Studio Code includes snippets to help in the building 
 |[Header](https://design-system.service.gov.uk/components/header/)|`govuk-header`||
 |[Pagination](https://design-system.service.gov.uk/components/pagination/)|`govuk-pagination`||
 |[Previous/next navigation](https://design-system.service.gov.uk/components/pagination/)|`govuk-previous-next`||
+|[Service navigation](https://design-system.service.gov.uk/components/service-navigation/)|`govuk-service-navigation`||
 |[Skip link](https://design-system.service.gov.uk/components/skip-link/)|`govuk-skip-link`||
 
 #### Miscellaneous
