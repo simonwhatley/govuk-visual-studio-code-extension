@@ -1,6 +1,6 @@
 {
   "name": "govuk-design-system-snippets",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "publisher": "simonwhatley",
   "displayName": "GOV.UK Design System snippets",
   "description": "GOV.UK Design System snippets for Nunjucks by Simon Whatley",
@@ -16,6 +16,10 @@
   ],
   "icon": "images/icon.png",
   "author": "Simon Whatley",
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/simonwhatley"
+  },
   "licence": "MIT",
   "repository": {
     "type": "git",

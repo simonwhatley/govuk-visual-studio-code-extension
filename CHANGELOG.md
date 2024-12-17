@@ -1,3 +1,8 @@
+# 2.4.0
+
+- Added the service navigation component
+- Updated the breadcrumbs snippet to include items
+
 # 2.3.0
 
 Updated snippets:
