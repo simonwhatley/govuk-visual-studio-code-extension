@@ -1,3 +1,7 @@
+# 2.5.0
+
+- Updated the crown
+
 # 2.4.0
 
 - Added the service navigation component
