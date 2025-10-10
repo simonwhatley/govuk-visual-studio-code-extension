@@ -257,6 +257,24 @@
 		],
 		"description": "Button – GOV.UK Design System"
 	  },
+	"Button group": {
+		"prefix": "govuk-button-group",
+		"body": [
+      "<div class=\"govuk-button-group\">",
+			"\t{{ govukButton({",
+			"\t\ttext: \"${1:Button text}\"",
+			"\t}) }}",
+      "",
+			"\t{{ govukButton({",
+			"\t\ttext: \"${2:Button text}\"",
+			"\t\tclasses: \"govuk-button--secondary\"",
+			"\t}) }}",
+      "",
+      "\t<a href=\"${3:#}\" class=\"govuk-link\">${4:Link text}</a>",
+      "</div>$0"
+		],
+		"description": "Button group – GOV.UK Design System"
+	  },
 	"Checkboxes": {
 		"prefix": "govuk-checkboxes",
 		"body": [
