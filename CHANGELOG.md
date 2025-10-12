@@ -1,3 +1,9 @@
+# 2.6.0
+
+- Added `govuk-button-group` snippet
+- Updated OpenGraph image
+- Updated marketplace icon
+
 # 2.5.0
 
 - Updated the crown
